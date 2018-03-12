@@ -75,5 +75,6 @@ WIZARD_STEP_RESULT initModuleModel::stepCal_MRI_ONLINE()
 WIZARD_STEP_RESULT initModuleModel::stepEnd_MRI_ONLINE()
 {
 	nowRunStep = WSTEP_END;
+	int i = 0;
 	return WIZARD_STEP_RESULT::WSRET_OK;
 }
