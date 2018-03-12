@@ -77,7 +77,3 @@ WIZARD_STEP_RESULT initModuleModel::stepEnd_MRI_ONLINE()
 	nowRunStep = WSTEP_END;
 	return WIZARD_STEP_RESULT::WSRET_OK;
 }
-
-
-
-
